@@ -41,15 +41,20 @@ Functions:
 
 Folder stucture:
     
-     ── Main                  # Primary folder - set as "homefolder" in gocsg_main
-        ├── audiofiles/       # Raw audio data from Trinity Speech-Gesture Database I (23 files)
-        ├── skelfiles/        # Raw mocap data from Trinity Speech-Gesture Database I (23 files)
-        ├── setup_files/      # Contains required files for functions
+     ── Main                            # Primary folder - set as "homefolder" in gocsg_main
+        ├── AVdata/                     
+        │   ├── speech/                  
+                │   ├── wav/            # Raw audio data from Trinity Speech-Gesture Database I (23 files)
+                │   ├── envfiles/       # Stores speech data configured for TRF analysis 
+        │   ├── mocap/                  
+                │   ├── bvh/            # Raw mocap data from Trinity Speech-Gesture Database I (23 files)
+                │   ├── skelfiles/      # Stores mocap data configured for TRF analysis 
+        ├── setup_files/                # Contains required files for functions
         ├── TRFoutput/
-        │   ├── Study1/       # Stores output associated with Study 1 analysis 
-        │   ├── Study2/       # Stores output associated with Study 2 analysis
-        ├── README.md         # Overview of the repository
-        ├── LICENSE           # Licensing information
+        │   ├── Study1/                 # Stores output associated with Study 1 analysis 
+        │   ├── Study2/                 # Stores output associated with Study 2 analysis
+        ├── README.md                   # Overview of the repository
+        ├── LICENSE                     # Licensing information
 
 License:
 
