@@ -60,9 +60,10 @@ License:
 
     This project is licensed under the MIT License - see the LICENSE file for details.
     
-Required external toolboxes (3): 
+Required external toolboxes (4): 
     
     https://github.com/mocaptoolbox/mocaptoolbox/tree/main
     https://github.com/mickcrosse/mTRF-Toolbox/tree/master
     https://github.com/alexisdmacintyre/AcousticLandmarks
+    https://github.com/lawrennd/mocap/tree/master/matlab
 
