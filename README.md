@@ -38,6 +38,8 @@ Functions:
 
     gocsg_TRFloop         # Runs the decoder analysis 
     gocsg_bvh2skel        # Transforms raw mocap data (.bvh) to MATLAB-compatible format
+    gocsg_wav2env        # Transforms raw mocap data (.bvh) to MATLAB-compatible format
+
 
 Folder stucture:
     
